@@ -1,0 +1,14 @@
+.logotype {
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    color: #eee;
+    font-size: 4.4rem;
+}
+
+.logobox {
+    background-color: #306088;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+

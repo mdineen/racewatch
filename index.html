@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Racewatch</title>
+
+        <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="static/css/main.css">
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/underscore/underscore-min.js"></script>
+        <script src="bower_components/backbone/backbone-min.js"></script>
+        <script src="bower_components/backbone.radio/build/backbone.radio.min.js"></script>
+        <script src="bower_components/backbone.marionette/lib/backbone.marionette.min.js"></script>
+
+        <script type="text/template" src="static/templates/instruments.html" id="instrumentView"></script>
+
+        <script src="static/js/app.js"></script>
+        <script src="static/js/layout.js"></script>
+        <script src="static/js/models.js"></script>
+        <script src="static/js/views/instruments.js"></script>
+        <script src="static/js/router.js"></script>
+        <script src="static/js/launch.js"></script>
+    </head>
+    <body>
+        <div id="racewatchapp" class="container">
+            <div class="row">
+                <div class="offset-by-four four columns">
+                    <h1 class="logotype logobox">RaceWatch</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="main"></div>
+            </div>
+        </div>
+    </body>
+</html>

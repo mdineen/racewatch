@@ -1,0 +1,25 @@
+{
+  "name": "racewatch",
+  "version": "1.0.0",
+  "description": "Racewatch 0.1",
+  "main": "index.html",
+  "dependencies": {
+    "grunt-contrib-jst": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jst": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdineen/racewatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdineen/racewatch/issues"
+  },
+  "homepage": "https://github.com/mdineen/racewatch#readme"
+}
